@@ -16,7 +16,7 @@ const SignIn = () => {
           password: ''
       },
       mode: 'onBlur'
-  }, );
+  });
 
   const onSubmit = async (data: SignInFormData) => {
     try {

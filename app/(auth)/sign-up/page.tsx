@@ -25,7 +25,7 @@ const SignUp = () => {
           preferredIndustry: 'Technology'
       },
       mode: 'onBlur'
-  }, );
+  });
   
   const onSubmit = async (data: SignUpFormData) => {
     try {
