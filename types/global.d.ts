@@ -148,6 +148,12 @@ declare global {
         peRatio?: string;
     };
 
+    type UserForNewsEmail = {
+        email: string;
+        name?: string;
+        id?: string;
+    };
+
     type AlertsListProps = {
         alertData: Alert[] | undefined;
     };
